@@ -1,0 +1,393 @@
+
+
+.navigation{
+    background-color: #F58529;
+}
+
+li{
+    font-weight: bold;
+}
+.btn{
+    border-radius: 1.1rem;
+    text-align: center;
+}
+
+.instagram-button {
+  font-size: 16px;
+  background: linear-gradient(135deg, #833AB4, #FD1D1D, #F58529);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background 0.3s ease;
+}
+.projectBtn{
+    background-color: #F58529;
+    height: 2rem;
+    border-radius: 5rem;
+    border: none;
+    padding: 0.8rem;
+}
+.projectBtn:hover{
+  height: 2rem;
+  border-radius: 5rem;
+  border: none;
+  background-color: black;
+  color: #F58529;
+
+}
+
+.projectLink{
+    text-decoration: none;
+    color: black;
+}
+
+.projectLink:hover{
+  text-decoration: none;
+  color: #F58529;
+}
+
+
+
+
+
+
+.progress-wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  .progress-label {
+    margin-right: 10px;
+    min-width: 60px; /* Adjust as needed */
+    text-align: right;
+  }
+  .progress {
+    flex: 1;
+    height: 25px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    background-color: #FFD9A6;
+    border-radius: 5px;
+  }
+
+  .progress:hover {
+    flex: 1;
+    height: 25px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    background-color: #999999;
+    border-radius: 5px;
+  }
+  .progress-bar {
+    width: 0%;
+    height: 100%;
+    transition: width 0.6s ease;
+    background-color: #F58529;
+    border-radius: 5px;
+    animation: progress-animation 5s ease-in-out forwards;
+  }
+
+  .progress-bar:hover{
+    width: 0%;
+    height: 100%;
+    transition: width 0.6s ease;
+    background-color: black;
+    color: #F58529;
+    border-radius: 5px;
+    animation: progress-animation 5s ease-in-out forwards;
+  }
+  @keyframes progress-animation {
+    0% {
+      width: 0%;
+    }
+  }
+
+  b {
+    text-align: center ;
+    font-size: large;
+    color: black;
+  }
+
+  b:hover {
+    text-align: center ;
+    font-size: large;
+    color:#F58529
+  }
+  .javascriptSkill{
+    font-size: small;
+  }
+  .img{
+    border: 0.4rem dashed #F58529;
+    border-radius: 3rem;
+  }
+
+  .img:hover{
+    border: 0.4rem dashed black;
+    border-radius: 3rem;
+  }
+
+  .footer {
+    background-color: black;
+    border-top: 3px solid #F58529;
+    color: #F58529;
+    text-align: right;
+    padding: 10px 20px;
+    margin: 0;
+}
+
+ .footerText{
+  color: #F58529;
+  margin: 0;
+ }
+
+ .nav-item{
+    margin: 0px;
+ }
+
+ .svg {
+    margin-right: 0.3rem;
+ }
+
+ span{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #F58529;
+    margin-top: 10rem;
+ }
+
+ .social{
+  width: 3rem;
+  height: 3rem;
+ }
+
+ .social:hover {
+    width: 3.3rem;
+    height: 3.3rem;
+ }
+
+ .profile{
+    border: 0.5rem dashed #F58529;
+    width: 24rem;
+    border-radius: 3rem;
+ }
+
+ .profile:hover{
+  border: 0.5rem dashed black;
+  width: 24rem;
+  border-radius: 3rem;
+}
+
+ .getbtn{
+  background-color: #F58529;
+  border: none;
+  border-radius: 2rem;
+  color: black;
+ }
+
+ .getbtn:hover{
+  background-color: black;
+  border: none;
+  border-radius: 2rem;
+  color: #F58529;
+ }
+
+ #nav {
+    background-color: #F58529;
+ }
+
+
+ #navbar-example2 {
+    background-color: #F58529;
+  }
+
+ .btn-primar{
+background-color: #F58529;
+ }
+ .btn-primar:hover{
+  background-color: black;
+  color: #F58529;
+   }
+
+ .footerText{
+  color: black;
+ }
+
+.navBarItem{
+  color: #F58529;
+}
+.navBar{
+  border-bottom: 0.2rem solid #F58529;
+}
+
+.nav-link.rounded-pill {
+  border-radius: 50px; /* Adjust the value to control the pill shape */
+  padding: 10px 20px; /* Adjust padding as needed */
+  background-color: #F58529 !important; /* Specific background color */
+  color: #fff; /* Text color */
+}
+
+.nav-link.rounded-pill:hover {
+  background-color:#F58529 !important; /* Hover background color */
+  color: #fff; /* Hover text color */
+}
+
+
+.nav-pills .nav-link.active {
+  background-color: #F58529 !important;
+  color: black;
+}
+
+.nav-link:hover {
+  color: #F58529 !important; /* Override default Bootstrap color */
+}
+
+ /* Custom CSS for animation */
+ @keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.slide-in {
+  animation: slideInFromLeft 1.8s ease forwards;
+}
+
+
+@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.slide-down {
+  animation: slideInFromTop 1.8s ease forwards;
+}
+
+
+
+
+.text-container {
+  line-height: 1.5; /* Adjust this value as needed */
+}
+.h1 {
+  margin-top: 0.5rem;
+  font-weight: bold;
+  font-size: 3rem;
+  color: #F58529;
+}
+
+.serviceBtn {
+  background-color: #F58529;
+  color: black;
+}
+
+.serviceBtn:hover {
+  background-color: black;
+  color: #F58529;
+}
+
+
+
+.resume {
+  background-color: #F58529;
+  border: none;
+  border-radius: 2rem;
+  color: black;
+}
+
+.resume:hover{
+  background-color: black;
+  border: none;
+  border-radius: 2rem;
+  color: #F58529;
+ }
+
+.btn-download {
+padding: 0;
+}
+.resume-link {
+  text-decoration: none;
+  background: none;
+  color: black;
+}
+
+.resume-link:hover {
+  text-decoration: none;
+  background: none;
+  color: #F58529;
+}
+
+a:hover{
+color: #F58529;
+}
+
+
+
+
+.nav-link {
+  color: #F58529;/* Default text color */
+ position: relative; /* Positioning for pseudo-elements */
+ overflow: hidden; /* Ensure overflow is hidden */
+ text-decoration: none !important; /* Remove default underline */
+ transition: color 0.4s, background-color 0.4s; /* Smooth transition for text and background color */
+}
+
+.nav-link::before, .nav-link::after {
+ content: '';
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ top: 0;
+ left: 0;
+ z-index: -1;
+ transition: transform 0.8s, opacity 0.4s;
+ transform: scaleX(0); /* Initially hidden */
+ transform-origin: left center;
+ background-color: #F58529; /* Background color of underline */
+ color: #F58529;
+}
+.nav-link::before {
+ transform-origin: right center;
+}
+.nav-link:hover::before, .nav-link:hover::after {
+ transform: scaleX(1); /* Scale up on hover */
+ opacity: 1; /* Show on hover */
+}
+.nav-link:hover {
+ color: black !important;/* Text color on hover */ 
+}
+.nav-link:hover::before {
+ transform-origin: left center; /* Expand from left on hover */
+}
+.nav-link:hover::after {
+ transform-origin: right center; /* Expand from right on hover */
+}
+
+.footer-link:hover{
+    color:#F58529;
+    text-decoration: none;
+    margin: 0;
+}
+.footer-link {
+  color: #F58529;
+  text-decoration: none;
+  margin: 0;
+}
+
+.bi-star-fill{
+  margin-right: 0.2rem;
+  color: #F58529;
+}
+.first{
+  margin-left: 0.2rem;
+}
+.bi-star{
+  color: #F58529;
+}
+.bi-star-half{
+  color: #F58529;
+}
